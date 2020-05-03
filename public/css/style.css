@@ -1,0 +1,103 @@
+@import url("");
+
+
+.header{
+    color: #16da9f;
+    background-color: #18306E ;
+    height: 70px; width: 100%;
+}
+.logo_log img{
+    margin-top: 20px;
+}
+#logo{
+    float:left;
+    /* display: block; */
+    margin-top: 20px;
+    /* width:50%; */
+}
+.title-big{
+    color:#E8770B;
+    font-family:serif;   
+     margin-bottom:30px;
+     margin-top:50px;
+}
+#sub-head{
+    /* background: url("") cover;
+    background-repeat: no-reapet;
+    background-attachment: fixed ; */
+    /* margin:0 auto; */
+
+    /* background-image : url('/image/header.jpg'); */
+    /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+    /* background-repeat : no-repeat; */
+    /* position : absolute ; */
+    /* left : 0px;
+    top : 1px;
+    width : 1487px;
+    height : 532px;
+    z-index: -11;
+    margin-top: 0; */
+}
+.bottom{
+    
+    margin-top:30px;
+}
+#header-home{
+    
+    display: block;
+    height: 70px; width: 100%;
+    background-color:#18306E;
+    margin-bottom: 100px;
+}
+
+.btn-theme{
+    border-color:none;
+    color: #ffffff;
+    background-color:#E8770B;
+    width: 150px; height: 45px;
+    outline: none;
+    border-radius: 4px;
+}
+.btn-theme:hover{
+    background-color: rgb(214, 106, 5);
+}
+.btn-theme:active{
+    background-color: rgb(190, 96, 9);
+}
+
+#menu, #menu li{
+    /*on supprime les éventuels styles par défaut*/
+    /* margin:0;
+    padding: 0;
+    list-style:none ;  */
+     /*fin*/
+    /* padding-top: 12px; */
+    display: inline-block;
+    /* margin-right: 100px; */
+}
+
+#menu li a{
+    text-decoration:none;
+    font-weight: bold;
+    color:#ffff;
+    right:50%;
+    margin-right: 30px;
+}
+#menu ul {
+        padding-top: -12px;
+}
+
+#menu li a:hover{
+    color:#E8770B;
+}
+
+#menu{
+    min-width:;
+    margin-top: -19px;
+    display: block;
+    position:relative;
+    /* left: 50%; */
+}
+/* #myChart{
+    height: 500px;
+} */
